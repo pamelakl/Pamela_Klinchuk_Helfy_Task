@@ -1,0 +1,27 @@
+# --- Dependencies ---
+# Ignore node_modules in both frontend and backend
+**/node_modules/
+
+# --- Environment & Security ---
+# Ignore local environment variables
+**/.env
+**/.env.local
+
+# --- Build Artifacts ---
+# Ignore the production build folder
+**/build/
+**/dist/
+
+# --- System & Editor Files ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+npm-debug.log*
+
+# --- React Specific Boilerplate  ---
+frontend/src/logo.svg
+frontend/src/reportWebVitals.js
+frontend/src/setupTests.js
+frontend/src/App.test.js

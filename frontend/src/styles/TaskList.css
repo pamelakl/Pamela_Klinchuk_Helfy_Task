@@ -1,0 +1,34 @@
+.carousel-container{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.slide{
+    overflow: hidden; 
+    width: 100%;
+    padding: 10px 0;
+}
+
+.carousel{
+    display: flex; 
+}
+
+.carousel-item{
+    padding: 0 10px; 
+    box-sizing: border-box;
+}
+
+.slide-button{
+    background: #7894a8;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+
